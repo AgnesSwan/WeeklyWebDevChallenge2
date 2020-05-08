@@ -1,10 +1,19 @@
 
+body{
+  margin: 0;
+  position: relative;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
 .logo {
 font-family:  'Lucida Sans';
 font-size: 20px;
 }
 .header_container 
 {
+  position: absolute;
   display: block;
   overflow: hidden;
   height: 50px;
@@ -51,4 +60,50 @@ border-top: solid orangered;
 
 .space{
   flex:1;
+}
+
+/*<!-- ---------- Home -------------- -->*/
+
+.home_container{
+  background: white;
+  border: solid black;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.home_text{
+  margin-left: 10%;
+  width: 300px;
+
+
+}
+.home_text h1{
+  padding-bottom: 10px;
+}
+.home_text p {
+  padding-bottom: 20px;
+  text-align: justify;
+}
+.home_text .button_home {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  background-color: orange;
+  height:30px;
+  width:150px;
+  box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+/*<!--------x--------  Home -----------x---------->*/
+.about{
+  background-color: aquamarine;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  margin-top: -50px;
 }
