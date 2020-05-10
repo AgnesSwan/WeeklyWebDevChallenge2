@@ -380,6 +380,11 @@ box-shadow: 0px 2px 2.5px rgba(0,0,0,0.5);
 background-color: #f72b3b;
 color:#FFFF;
 }
+
+
+
+/*footer Contact */
+
 .contact_container{
   display:flex;
   flex-direction: column;
@@ -445,11 +450,23 @@ color:#FFFF;
   margin-top: 10px ;
 }
 
+
+/* footer container */
 .footer_container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-size: cover;
   background-color: #262626;
   height:90px;
   bottom: 0;
+  width: 100%;
 }
+.footer_elem {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.33%;
+  color:#b9b9b9;;
+  font-size: 15px;
+}
+
