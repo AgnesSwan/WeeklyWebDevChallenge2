@@ -101,16 +101,19 @@ a {
   color:black;
 }
 /*<!--------x--------  Home -----------x---------->*/
+
+/*ABOUT*/
 .about_container{
-  background: rgb(76, 187, 181);
+  background-image: url(./img/about.jpg);
+  background-size: cover;
   border: solid black;
     height: 100vh;
+  
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  align-items: center;
 }
 .about_text{
-  margin-left: 55%;
+  margin-left: 65%;
   margin-right: 10%;
   width: 400px;
 }
@@ -123,8 +126,11 @@ a {
   color:white;
   font-size: 12px;
 }
+/*SERVICES*/
+
 .services_container {
-  background: lightskyblue;
+  background-image: url(./img/services.jpg);
+  background-size: cover;
   border: solid black;
     height: 100vh;
     display: flex;
@@ -159,15 +165,21 @@ align-items: center;
   height: 50px;
   width: 250px;
   }
- .services_list_elem img {
+ .services_list_elem .img_elem {
   display: flex;
   float:left;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
   background-color: white;
   box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
 border-left: solid 1px black;
+}
+.img_elem img{
+  
+  width: 60%;
+  height: 60%;
 }
 .services_text .ourservices_title{
   display: flex;
@@ -181,9 +193,9 @@ border-left: solid 1px black;
 .enter{
   clear: both;
 }
-
+/*GALLERY*/
 .gallery_container{
-  background: yellow;
+  background: #ffe92f;
   border: solid black;
     background-size: cover;
     min-height: 100vh;
@@ -245,8 +257,11 @@ border-left: solid 1px black;
     box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
 
   }
+
+/*SUBSCRIBE*/
+
   .subscribe_container{
-    background: white;
+    background-image: url(./img/sub.jpg);
   border: solid black;
     background-size: cover;
 height: 400px;
@@ -255,7 +270,7 @@ height: 400px;
 justify-content: center;  }
   .subscribe_text {
     margin-left: 10%;
-    width: 60%;
+    width: 50%;
   }
   .subscribe_text h1{
     font-size: 40px;
@@ -273,6 +288,7 @@ height: 30px;
 width: 50%;
 padding:10px;
 margin-right: 20px;
+border:none;
   }
   .submit{
     display: flex;
@@ -283,7 +299,7 @@ margin-right: 20px;
     background-color: lime;
     color:white;
     box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
-  
+  border:none;
   }
 
 
